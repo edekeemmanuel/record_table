@@ -1,3 +1,8 @@
+*,*::before,*::after{ 
+     margin: 0; 
+     padding: 0; 
+     box-sizing: border-box; 
+ } 
 .ff{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -9,3 +14,36 @@
   background-color: #f7632d;
   width: 82%;
 }
+@media only screen and (max-width: 320px){
+
+}
+@media only screen and (max-width: 386px){
+#fs-15{
+   font-size: 15px !important;
+ } 
+#fs-16{
+   font-size: 12px !important;
+ }  
+.is{
+  width: 13px !important;
+  height: 13px !important;
+  margin-top: 2px;
+}
+#wm{
+  width: 140px !important;
+  height: 23px !important;
+}
+#fs-6{
+  font-size: 18px !important;
+}
+#fs-5{
+  font-size: 12px !important;
+}
+}
+@media only screen and (min-width: 576px) {
+  
+}
+@media only screen and (min-width: 768px) {
+
+}
+
